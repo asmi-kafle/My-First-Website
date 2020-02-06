@@ -1,0 +1,171 @@
+body{
+  font-family: "Montserrat";
+}
+.title {
+  background-color: #ffc55c;
+  height: 25rem;
+  display: block;
+  margin-top: 6rem;
+}
+
+h1{
+  font-family: "Montserrat-Black";  /*Monsterrat font has styles thin, black, etc, so here we are using Monsterrat-Black */
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3{
+  font-family: "Montserrat-Bold";
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+
+}
+
+/* Navigation Bar */
+/* .navbar{
+  position: fixed;
+} */
+
+.navbar{
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  height: 6rem;
+  width: 100%;
+  /* margin: 0 0 100px; */
+  z-index: 1;
+  padding-bottom: 100px;
+}
+
+.introSection{
+    margin-top: 6rem;
+}
+
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size:1.2rem;
+}
+
+/* Download Buttons */
+
+.download-btn{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-img{
+  width: 40%;
+  transform: rotate(15deg);
+  position: absolute;
+  /* z-index: -1; */
+}
+
+#features{
+background-color: white;
+padding: 13% 15%;
+/* padding: 200px 100px; */
+text-align: center;
+position: relative;
+/* z-index: 1; */
+}
+
+.icons{
+  color:#ffc55c;
+  font-size: 3em;
+  margin-bottom: 1rem;
+  /* Or you can just add fa-4x class in the icon's class to change its size */
+}
+
+.icons:hover{
+  color: grey;
+}
+
+p{
+  color: grey;
+  margin: auto;
+}
+
+.testimonial-image{
+  border-radius:100%;
+  margin: 30px 20px 50px;
+  width: 20%
+}
+
+#testimonials{
+  font-family: "Montserrat-Black";
+  background-color: #ffc55c;
+  text-align: center;
+
+}
+
+#press{
+  background-color: #ffc55c;
+  text-align: center;
+  padding: 100px;
+  padding-top: 50px;
+}
+
+#cta{
+  font-family: "Montserrat-Black";
+  background-color: #ffc55c;
+  text-align: center;
+  padding: 12% 5% 5%;
+}
+
+.press-logo{
+  width: 65%;
+}
+
+.lastColoredBox{
+  padding-bottom: 2%;
+}
+
+.bottomBtn{
+  margin-top: 0;
+}
+
+#footer{
+  text-align: center;
+  padding: 6%;
+}
+
+.bottomIcons{
+  text-align: center;
+}
+
+/* Pricing */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+.social-icon {
+  margin: 5px 5px;
+}
+
+@media(max-width: 900px){
+  #title{
+    color: red;
+  }
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
